@@ -1,0 +1,146 @@
+/*
+ *  SoturiyARTS - Stylesheet
+ *  31.03.2015
+ *  Version 1
+*/
+
+/* Global Settings */
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hidden{
+    position: absolute;
+    width: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+    height: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;    
+}
+
+body{
+    margin: 0 auto;
+}
+strong{
+    font-weight: bold;
+}
+/* LOGO incl. NAVI */
+.site_header{
+    background-image: url(../images/background_head.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: grey;
+    height: 80vh;
+    position: relative;
+    border-bottom: 2px solid silver;
+}
+.site_header nav h1{
+    float: left;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-top:5px;
+    text-shadow: 2px 2px grey;
+}
+.site_header nav h1 strong{
+    font-weight: bold;
+    color: white;
+}
+.site_header nav ul{
+    float: right;
+    margin-top: 20px;
+}
+.site_header nav ul li{
+    float: left;
+    list-style: none;
+}
+.site_header nav ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: white;
+    margin: 1em;
+}
+.site_header h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size 1.3em;
+    margin: 0;
+    position: absolute;            
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px black;
+    border-bottom: 2px dashed white;
+}
+
+/* QUOTATION */
+.site_quote{
+    min-height: 40vh;
+    background: #ec7963;
+    border-bottom: 2px solid silver;
+    text-align: center;
+}
+.site_quote h3{
+    font-family: 'Pacifico', sans-serif;
+    color: #F2F1EF;
+    text-shadow: 2px 2px #D64541;
+    font-size: 3em;
+}
+.site_quote p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #D64541;
+    font-size: 1.5em;
+}
+
+/* SERVICE */
+.site_service{
+    min-height: 60vh;
+    background: #EEEEEE;
+    border-bottom: 2px solid silver;
+}
+.site_service_img img{
+    margin-top: 10%;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+.site_service article p{
+    font-family: 'Open Sans', sans-serif;
+    color: #6C7A89;
+    text-shadow: 1px 1px white;
+    margin-top: 10%;
+}
+
+/* WORKS */
+.site_works{
+    min-height: 100vh;
+    background: white;
+    border-bottm: 2px solid silver;
+}
+.site_works h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.site_works img{
+}
+
+/* CONTACT */
+.site_contact{
+    background: darkgrey;
+    height: 50vh;
+}
+/**/
+/* Media Queries */
