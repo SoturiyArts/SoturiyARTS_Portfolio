@@ -139,8 +139,65 @@ strong{
 
 /* CONTACT */
 .site_contact{
-    background: darkgrey;
-    height: 50vh;
+    background: #2e3444;
+    min-height: 50vh;
+}
+.site_contact h2{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.site_contact label{
+    display: block;
+    margin-top: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.site_contact #email{
+    width: 70%;
+    float: left;
+    height: 3em;
+    background: #efefef;
+    border-radius: 3px;
+    border: 1px solid #dedede;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: #2e3444;
+    padding: 0.8em;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.site_contact textarea{
+    width: 34%;
+    height: 5em;
+    background: #efefef;
+    border-radius: 3px;
+    border: 1px solid #dedede;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: #2e3444;
+    padding: 0.8em;
+    float: left;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.site_contact #submit{
+    width:34%;
+    height: 5em;    
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.8em;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background:#ec7963;
+    border-radius: 3px;
+    border: 1px solid #ec7963;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: bold;
 }
 /**/
 /* Media Queries */

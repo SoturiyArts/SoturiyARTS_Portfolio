@@ -29,7 +29,7 @@
                     <li><a href="#home">home</a></li>
                     <li><a href="#service">service</a></li>
                     <li><a href="#portfolio">portfolio</a></li>
-                    
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
             <h2>WE CREATE BEAUTIFUL WEBDESIGNS & INTERFACES</h2>
@@ -92,10 +92,15 @@
     </div>
     
     <!-- Contact -->
-    <div class="row site_contact">
+    <div id="contact" class="row site_contact">
         <div class="container">
             <section class="small-1 medium-2 large-6 columns">
-                <input form="texfield" />
+                <h2>Any questions about a project? Just drop us a line!</h2>
+                <form method="post" action="contact.php">
+                    <input id="email" name="email" type="email" placeholder="Type Here" required>
+                    <textarea name="message" placeholder="Type Here" required></textarea>
+                    <input id="submit" name="submit" type="submit" value="Ready">
+                </form>
             </section>
         </div>
     </div>
