@@ -1,120 +1,162 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-    <title>SoturiyARTS | Webdesign & Webdevelopment</title>
+    <!-- Title & Meta -->
+    <title>SoturiyARTS + Webdesign & Front-End Development</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
     
-    <!-- Stylesheets & Fonts -->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    
+    <!-- CSS & Fonts -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/grid.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css" />
     
     <!-- JS -->
-    <script src="js/modernizr.custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/modernizr-dev.js"></script>
 </head>
 
 <body>
-    <!-- Logo incl. Navi -->
-    <header id="home" class="row site_header">
+    <!-- HEADER incl. NAVBAR (Name + Navi) -->
+    <div class="row site_header">
         <div class="container">
-            <nav class="small-1 medium-2 large-6 columns">
-                <h1>soturiy<strong>arts</strong></h1>
-                <ul>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#service">service</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
-            <h2>WE CREATE BEAUTIFUL WEBDESIGNS & INTERFACES</h2>
-        </div>
-    </header>
-    
-    <!-- Quotation -->
-    <div class="row site_quote">
-        <div class="container">
-            <article class="small-1 medium-2 large-6 columns">
-                <h3>" Design is thinking made visual "</h3>
-                <p>- Saul Bass -</p>
-            </article>
-        </div>
-    </div>
-
-    <!-- Service -->
-    <div id="service" class="row site_service">
-        <div class="container">
-            <article class="small-1 medium-2 large-2 columns site_service_img">
-                <img src="images/icons/mobile.png" alt="Mobile-First Development" />
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            </article>
-            <article class="small-1 medium-2 large-2 columns site_service_img">
-                <img src="images/icons/seo.png" alt="SEO / Suchmaschinenoptimierung" />
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            </article>
-            <article class="small-1 medium-2 large-2 columns site_service_img">
-                <img src="images/icons/browser.png" alt="Alt-Text" />
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-            </article>
+            <header class="small-2 medium-6 large-12 columns">
+                <!-- Navbar -->
+                <h1>Soturiy<strong>ARTS</strong></h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- Teaser -->
+                <h2>HIER STEHT DANN EIN KLEINER, ABER FEINER, TEASER.</h2>
+            </header>
         </div>
     </div>
     
-    <!-- Works -->
-    <div id="portfolio" class="row site_works">
+    <!-- SERVICES -->
+    <div class="row site_services">
         <div class="container">
-            <section class="grid-wrap">
-		<ul class="grid swipe-right" id="grid">
-                    <li class="title-box"><h2>SoturiyARTS Portfolio</h2></li>
-                    <li><a href="#"><img src="images/works/work_1.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_2.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_3.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_1.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_2.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_3.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_1.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_2.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_3.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_1.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_2.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/work_3.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-                    <li><a href="#"><img src="images/works/dummy.png" alt="dummy"><h3>A fantastic title</h3></a></li>
-		</ul>
-	    </section>
+            <!-- Title -->
+            <h2 class="small-2 medium-6 large-12 columns big_heading">OUR SERVICES</h2>
+            <!-- #1 -->
+            <article class="small-2 medium-3 large-6 columns">
+                <h3 class="right"><i class="icon ion-image border"></i></h3>
+                <h4 class="heading-left">Designing</h4>
+                <p class="text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </article>
+            <!-- #2 -->
+            <article class="small-2 medium-3 large-6 columns">
+                <h3 class="left"><i class="icon ion-erlenmeyer-flask border"></i></h3>
+                <h4 class="heading-right">Developing</h4>
+                <p class="text-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </article>
+            <!-- #3 -->
+            <article class="small-2 medium-3 large-6 columns">
+                <h3 class="right"><i class="icon ion-ipad border"></i></h3>
+                <h4 class="heading-left">Mobile-First</h4>
+                <p class="text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </article>
+            <!-- #4 -->
+            <article class="small-2 medium-3 large-6 columns">
+                <h3 class="left"><i class="icon ion-search border"></i></h3>
+                <h4 class="heading-right">SEO</h4>
+                <p class="text-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            </article>
         </div>
     </div>
     
-    <!-- Contact -->
-    <div id="contact" class="row site_contact">
+    <!-- 
+    
+    <!-- PORTFOLIO -->
+    <div class="row site_portfolio">
         <div class="container">
-            <section class="small-1 medium-2 large-6 columns">
-                <h2>Any questions about a project? Just drop us a line!</h2>
-                <form method="post" action="contact.php">
-                    <input id="email" name="email" type="email" placeholder="Type Here" required>
-                    <textarea name="message" placeholder="Type Here" required></textarea>
-                    <input id="submit" name="submit" type="submit" value="Ready">
-                </form>
+            <h3 class="small-2 medium-6 large-12 columns big_heading">OUR PORTFOLIO</h3>
+            <!-- #1 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_1.jpg" alt="Dynamix eSports - Screendesign" />
+            </article>
+            <!-- #2 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_2.jpg" alt="Test - Screendesign" />
+            </article>
+            <!-- #3 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_3.jpg" alt="TEAM.GSXH - Screendesign" />
+            </article>
+            <!-- #4 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_4.jpg" alt="Dynamix eSports - Screendesign" />
+            </article>
+            <!-- #5 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_5.jpg" alt="Dynamix eSports - Screendesign" />
+            </article>
+            <!-- #6 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_6.png" alt="Dynamix eSports - Screendesign" />
+            </article>
+            <!-- #7 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_7.jpg" alt="Dynamix eSports - Screendesign" />
+            </article>
+            <!-- #8 -->
+            <article class="small-1 medium-2 large-3 columns">
+                <img src="img/portfolio/Portfolio_8.jpg" alt="Dynamix eSports - Screendesign" />
+            </article>
+        </div>
+    </div>
+    
+    <!-- Kontakt -->
+    <div class="row site_contact">
+        <div class="container">
+            <section class="small-2 medium-6 large-12 columns">
+                <h2>INTERESSE GEWECKT ?</h2>
+                <a>Konaktieren Sie uns!</a>
             </section>
         </div>
     </div>
     
-    <!-- Scripts -->
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/colorfinder-1.1.js"></script>
-    <script src="js/gridScrollFx.js"></script>
-    <script>
-	new GridScrollFx( document.getElementById( 'grid' ), {
-	    viewportFactor : 0.4
-	} );
-    </script>
+    <!-- Pre Footer -->
+    <div class="row site_prefooter">
+        <div class="container">
+            <!-- About SoturiyARTS -->
+            <article class="small-2 medium-3 large-6 columns">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </article>
+            <!-- Testemonials -->
+            <article class="small-2 medium-3 large-6 columns">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </article>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="row site_footer">
+        <div class="container">
+            <footer class="small-2 medium-6 large-12 columns">
+                <!-- Copyright -->
+                <article class="small-2 medium-2 large-4 columns"></article>
+                <!-- Social Media -->
+                <section class="small-2 medium-2 large-4 columns"></section>
+                <!-- Sitemap -->
+                <nav class="small-2 medium-2 large-4 columns">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Leistungen</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Impressum</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
